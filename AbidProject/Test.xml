@@ -1,0 +1,16 @@
+<suite name="testSuite">
+<test name ="test1" >
+<classes>
+<class name ="com.testng.basics.AnnotationSample"></class>
+<class name ="com.testng.basics.AnnotationSample2"></class>
+</classes>
+</test>
+
+
+<test name =" run package">
+<packages>
+<package name ="com.tesng.basics"></package>
+</packages>
+</test>
+
+</suite>

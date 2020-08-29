@@ -1,0 +1,13 @@
+<suite name ="read xml file">
+<parameter name = "username"value ="admin"></parameter>
+<test name =" run test">
+
+<classes>
+
+<class name ="com.testng.basics.XLSample"></class>
+
+</classes>
+
+</test>
+
+</suite>

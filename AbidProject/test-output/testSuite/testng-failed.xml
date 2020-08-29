@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]">
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.testng.basics.AnnotationSample">
+        <methods>
+          <include name="m2"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotationSample -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

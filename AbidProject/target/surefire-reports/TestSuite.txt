@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 1.019 sec <<< FAILURE!
+m1(com.testng.basics.AnnotationSample)  Time elapsed: 0.753 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.testng.basics.AnnotationSample.m1(AnnotationSample.java:36)
+
